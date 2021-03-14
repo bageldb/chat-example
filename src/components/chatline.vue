@@ -1,6 +1,6 @@
 <template>
   <div class="chat-bubble-wrap" :class="{'gray':user}">
-     <div class="chat-bubble">{{msg}}</div>
+    <div class="chat-bubble">{{ msg }}</div>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'chatline',
   props: {
     msg: String,
-  user:Boolean
+    user: Boolean
   }
 }
 </script>
